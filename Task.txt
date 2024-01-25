@@ -1,0 +1,10 @@
+userRoutes:
+like - POST
+unlike - DELETE
+get list like based on userId - GET // Lấy ra người like của users
+get rate based on userId - GET // Lấy danh sách đánh giá theo nhà hàng và user
+order - POST
+create rate - POST
+restaurantRoutes:
+get list rate based on resId - GET
+get list like based on resId - GET
